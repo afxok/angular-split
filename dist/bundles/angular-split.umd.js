@@ -11861,7 +11861,7 @@ var WithLatestFromSubscriber = /*@__PURE__*/ (function (_super) {
  * |0 0                               calc(100% - 20px)                               |
  *
  */
-var SplitComponent = (function () {
+var SplitComponent = /** @class */ (function () {
     function SplitComponent(ngZone, elRef, cdRef, renderer) {
         this.ngZone = ngZone;
         this.elRef = elRef;
@@ -12613,7 +12613,7 @@ var SplitComponent = (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var SplitAreaDirective = (function () {
+var SplitAreaDirective = /** @class */ (function () {
     function SplitAreaDirective(ngZone, elRef, renderer, split) {
         this.ngZone = ngZone;
         this.elRef = elRef;
@@ -12893,7 +12893,7 @@ var SplitAreaDirective = (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var SplitGutterDirective = (function () {
+var SplitGutterDirective = /** @class */ (function () {
     ////
     function SplitGutterDirective(elRef, renderer) {
         this.elRef = elRef;
@@ -13115,7 +13115,7 @@ var defaultImageV = 'url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAF
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var AngularSplitModule = (function () {
+var AngularSplitModule = /** @class */ (function () {
     function AngularSplitModule() {
     }
     /**
@@ -13158,8 +13158,6 @@ var AngularSplitModule = (function () {
                     ]
                 },] },
     ];
-    /** @nocollapse */
-    AngularSplitModule.ctorParameters = function () { return []; };
     return AngularSplitModule;
 }());
 
